@@ -1,0 +1,27 @@
+.contactList{
+    /* width: 600px; */
+    padding: 0px;
+}
+
+.contactItem{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.contactName{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.deleteBtm {
+    background-color: rgb(253, 22, 22);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+  }

@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex: 1 0 120px;
+  max-width: 100px;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.label_text {
+    margin-bottom: 4px;
+  }
+
+  .form_input {
+    padding: 4px;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 20px;
+    outline: none;
+  }
+
+  .add_button {
+    display: inline-flex;
+    padding: 8px 6px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2196f3;
+    color: #fff;
+    font-size: inherit;
+    cursor: pointer;
+  }
+  
+  .add_button:hover,
+  .add_button:focus {
+    background-color: #1976d2;
+  }
